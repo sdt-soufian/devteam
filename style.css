@@ -239,11 +239,60 @@ ul a{
 li{
 	margin: 10px auto;
 }
+.contact{
+	background-color: #56427e;
+	padding: 20px;
+}
+form>div{
+	border: 1px solid #b05c98;
+	margin: 10px 10px;
+	position: relative;
+}
+form>div>div{
+	display: inline-block;
+	position: absolute;
+	background-color: #b05c98;
+	color: #3d357f;
+	height: 100%;
+	width: 50px;
+	top: 0;
+	left: 0;
+	text-align: center;
+}
+.info-contact{
+	color: #d3c0ba;
+	font-size: 18px;
+}
+form>div>div>i{
+	padding-top: 15px;
+}
+input[type=text], input[type=email], input[type=number]{
+	width: 100%;
+	padding: 15px;
+	text-align: center;
+	font-size: 18px;
+	border: 0;
+	background-color: rgba(255, 255, 255, 0.4);
+	color: black;
+	outline: none;
+} 
+textarea{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.4);
+	outline: none;
+}
 @media screen and (min-width: 900px){
 	.conteneur{
 		display: flex;
 	}
 	.ticket{
-		margin: 10px 10px;
+		margin: 20px 25px;
+	}
+	.sliders, .slider-box{
+		height: 500px;
+	}
+	img{
+		height: 500px;
 	}
 }

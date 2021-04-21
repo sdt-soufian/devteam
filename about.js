@@ -26,6 +26,6 @@ $(window).on('load', function(){
 		}
 	})
 	$('.menu').click(function(){
-		$('.navigation').fadeToggle('slow')
+		$('.navigation').slideToggle('slow')
 	})
 })
