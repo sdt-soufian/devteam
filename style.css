@@ -242,6 +242,7 @@ li{
 .contact{
 	background-color: #56427e;
 	padding: 20px;
+	margin-top: 10px;
 }
 form>div{
 	border: 1px solid #b05c98;
@@ -262,6 +263,10 @@ form>div>div{
 .info-contact{
 	color: #d3c0ba;
 	font-size: 18px;
+}
+.data{
+	border: 1px solid #b05c98;
+	box-shadow: 0 15px 20px rgba(0, 0, 0, 0.5);
 }
 form>div>div>i{
 	padding-top: 15px;
@@ -294,5 +299,23 @@ textarea{
 	}
 	img{
 		height: 500px;
+	}
+	.flex, form{
+		display: flex;
+	}
+	form{
+		flex-wrap: wrap;
+	}
+	.data{
+		flex: 1 1 70%;
+	}
+	.info-contact{
+		flex: 1 1 30%;
+	}
+	#user, #mail, #phone{
+		flex: 1 1 20%;
+	}
+	#message{
+		flex: 1 1 100%;
 	}
 }
